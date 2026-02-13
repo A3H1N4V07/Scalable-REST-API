@@ -163,4 +163,3 @@ This application is designed with scalability in mind:
 - Scalability explanation provided
 
 ---
-
