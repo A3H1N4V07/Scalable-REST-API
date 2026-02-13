@@ -13,13 +13,14 @@ A full-stack scalable RESTful application built using:
 ---
 
 ## 📁 Project Structure
-
+```
 scalable-rest-api/
 │
-├── backend/ → Node.js + Express API
-├── frontend/ → React Frontend UI
+├── backend/ # Node.js + Express API
+├── frontend/ # React Frontend UI
 ├── README.md
 └── .gitignore
+```
 
 ## 🚀 Features
 
