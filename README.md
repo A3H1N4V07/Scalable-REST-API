@@ -163,6 +163,3 @@ This application is designed with scalability in mind:
 
 ---
 
-## 👨‍💻 Author
-
-Backend Developer Internship Assignment Submission
