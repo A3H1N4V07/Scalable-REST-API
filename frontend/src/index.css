@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color:#290238; /* dark navy */
+  color: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* AUTH CARDS */
+
+.auth-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.auth-card {
+  width: 340px;
+  padding: 30px;
+  background:white; /* dark card */
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f8fafc;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #e2e8f0;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.error {
+  color: #f87171;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.success {
+  color: #4ade80;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* DASHBOARD */
+
+.dashboard {
+  width: 600px;
+  padding: 40px;
+  background: #1e293b;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.dashboard h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f172a;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #334155;
+}
+
+.task span {
+  font-size: 15px;
+}
+
+.task button {
+  width: auto;
+  padding: 6px 12px;
+  background: #ef4444;
+}
+
+.task button:hover {
+  background: #dc2626;
+}
+
+.logout-btn {
+  background: #ef4444;
+  margin-top: 30px;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+}
